@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_city"
+        android:icon="@drawable/ic_nav_city_24dp"
+        android:title="@string/nav_city"
+        />
+    <item
+        android:id="@+id/nav_favorite"
+        android:icon="@drawable/ic_nav_favorite_24dp"
+        android:title="@string/nav_favorite"
+        />
+
+    <group android:id="@+id/g_settings">
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_nav_settings_24dp"
+            android:title="@string/nav_settings"
+            />
+    </group>
+
+</menu>

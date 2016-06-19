@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/fragment_projects"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ListView
+        android:id="@+id/weather"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <TextView
+        android:id="@android:id/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/empty_weather_list"
+        />
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/menu_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="16dp"
+        app:fab_addButtonColorPressed="@color/colorPressMenuFAB"
+        app:layout_anchor="@+id/weather"
+        app:layout_anchorGravity="bottom|right|end"
+        fab:fab_addButtonColorNormal="@color/colorAccent"
+        fab:fab_addButtonPlusIconColor="@color/colorPlusFAB"
+        fab:fab_labelStyle="@style/AppTheme.Fab"
+        >
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/location_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="#e91e61"
+            fab:fab_colorPressed="#ec407a"
+            fab:fab_icon="@drawable/ic_fab_location_24dp"
+            fab:fab_size="mini"
+            fab:fab_title="@string/fab_location"
+            />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/search_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="#e91e61"
+            fab:fab_colorPressed="#ec407a"
+            fab:fab_icon="@drawable/ic_fab_search_24dp"
+            fab:fab_size="mini"
+            fab:fab_title="@string/fab_search"
+            />
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+    <ProgressBar
+        android:id="@+id/loadBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        />
+
+</android.support.design.widget.CoordinatorLayout>

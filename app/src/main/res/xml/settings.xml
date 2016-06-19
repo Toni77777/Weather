@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:hint="@string/text_preference_hint"
+        android:key="@string/text_preference_key"
+        android:summary="@string/text_preference_summary"
+        android:title="@string/text_preference_title"
+        >
+    </EditTextPreference>
+
+    <ListPreference
+        android:defaultValue="Celsius"
+        android:entries="@array/entries"
+        android:entryValues="@array/entry_values"
+        android:key="@string/list_preference_key"
+        android:summary="@string/list_preference_summary"
+        android:title="@string/list_preference_title"
+        >
+    </ListPreference>
+
+    <ListPreference
+        android:defaultValue="14"
+        android:entries="@array/days"
+        android:entryValues="@array/days_values"
+        android:key="@string/days_preference_key"
+        android:summary="@string/days_preference_summary"
+        android:title="@string/days_preference_title"
+        >
+    </ListPreference>
+</PreferenceScreen>

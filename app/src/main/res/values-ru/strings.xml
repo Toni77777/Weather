@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Погода</string>
+    <string name="nav_city">Мой город</string>
+    <string name="nav_favorite">Избнанное</string>
+    <string name="nav_geolocation">Местоположение</string>
+    <string name="nav_settings">Настройки</string>
+
+    <string name="dialog_name">Город</string>
+    <string name="dialog_ok">Ок</string>
+    <string name="dialog_disable">Отмена</string>
+    <string name="dialog_input_city">Введите название города</string>
+    <string name="fab_location">Моё местоположение</string>
+    <string name="fab_search">Поиск города</string>
+    <string name="empty_weather_list">Нет данных о погоде</string>
+
+    <string name="text_preference_title">Город</string>
+    <string name="text_preference_summary">Отображение погоды для города по умолчанию</string>
+    <string name="text_preference_hint">Название города по умолчанию</string>
+    <string name="list_preference_title">Температура</string>
+    <string name="list_preference_summary">Единицы измерения температуры</string>
+    <string-array name="entries">
+        <item>Градусы Цельсия</item>
+        <item>Градусы по Фаренгейту</item>
+    </string-array>
+
+    <string name="menu_favorite">Добавить в избранное</string>
+    <string name="menu_refresh">Обновить</string>
+    <string name="favorite_empty">Нет сохраненных городов</string>
+    <string name="favorite_add">  добавлен в избранное</string>
+    <string name="refresh_data">Данные обновлены</string>
+    <string name="no_connection">Нет подключения к интернету</string>
+    <string name="geo_you_here">Вы находитесь в</string>
+    <string name="disabled_gps">Ваш GPS, кажется, быть отключены, вы хотите, чтобы включить его для определения вашего местоположения?</string>
+
+    <string name="days_preference_title">Дни</string>
+    <string name="days_preference_summary">Количество дней для отображения погоды</string>
+    <string-array name="days">
+        <item>Сегодня</item>
+        <item>Три дня</item>
+        <item>Неделя</item>
+        <item>Две недели</item>
+    </string-array>
+
+    <string name="text_humidity">Влажность</string>
+    <string name="text_wind_speed">м/с</string>
+    <string name="text_pressure_unit">кПа</string>
+    <string name="text_pressure">Давление</string>
+    <string name="text_wind">Скорость ветра</string>
+
+    <string name="january">Январь</string>
+    <string name="february">Февраль</string>
+    <string name="march">Март</string>
+    <string name="april">Апрель</string>
+    <string name="may">Май</string>
+    <string name="june">Июнь</string>
+    <string name="jule">Июль</string>
+    <string name="august">Август</string>
+    <string name="september">Сентябрь</string>
+    <string name="october">Октябрь</string>
+    <string name="november">Ноябрь</string>
+    <string name="december">Декабрь</string>
+
+    <string name="monday">Понедельник</string>
+    <string name="tuesday">Вторник</string>
+    <string name="wednesday">Среда</string>
+    <string name="thursday">Четверг</string>
+    <string name="friday">Пятница</string>
+    <string name="saturday">Суббота</string>
+    <string name="sunday">Воскресенье</string>
+
+</resources>

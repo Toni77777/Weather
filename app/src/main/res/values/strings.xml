@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Weather</string>
+
+    <string name="nav_city">City</string>
+    <string name="nav_favorite">Favorites</string>
+    <string name="nav_geolocation">Geolocation</string>
+    <string name="nav_settings">Settings</string>
+
+    <string name="dialog_name">City</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_disable">Disable</string>
+    <string name="dialog_input_city">Enter name of the city</string>
+    <string name="fab_location">Location</string>
+    <string name="fab_search">Search city</string>
+    <string name="empty_weather_list">No weather data</string>
+
+    <string name="text_preference_title">City</string>
+    <string name="text_preference_summary">Default city to display weather</string>
+    <string name="text_preference_hint">Default city name</string>
+
+    <string name="list_preference_title">Temperature</string>
+    <string name="list_preference_summary">Units of temperature</string>
+    <string-array name="entries">
+        <item>Celsius degrees</item>
+        <item>Fahrenheit degrees</item>
+    </string-array>
+    <string-array name="entry_values">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+    </string-array>
+
+    <string name="text_preference_key">city key</string>
+    <string name="list_preference_key">temperature</string>
+    <string name="menu_favorite">Add to favorites</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="favorite_empty">Haven\'t favorite cities</string>
+    <string name="favorite_add">add to favorite</string>
+    <string name="refresh_data">Data updated</string>
+
+    <string name="no_connection">No internet connection</string>
+    <string name="geo_you_here">You are in</string>
+    <string name="disabled_gps">Your GPS, seem to be disabled, do you want to enable it to determine
+        your location?
+    </string>
+
+
+    <string name="days_preference_title">Days</string>
+    <string name="days_preference_summary">The number of days to display the weather</string>
+    <string name="days_preference_key">days count</string>
+    <string-array name="days">
+        <item>Today</item>
+        <item>Three days</item>
+        <item>Week</item>
+        <item>Two weeks</item>
+    </string-array>
+    <string-array name="days_values">
+        <item>1</item>
+        <item>3</item>
+        <item>7</item>
+        <item>14</item>
+    </string-array>
+
+    <string name="text_humidity">Humidity</string>
+    <string name="text_pressure">Pressure</string>
+    <string name="text_wind_speed">meter/sec</string>
+    <string name="text_pressure_unit">hPa</string>
+    <string name="text_wind">Wind speed</string>
+
+    <string name="january">January</string>
+    <string name="february">February</string>
+    <string name="march">March</string>
+    <string name="april">April</string>
+    <string name="may">May</string>
+    <string name="june">June</string>
+    <string name="jule">Jule</string>
+    <string name="august">August</string>
+    <string name="september">September</string>
+    <string name="october">October</string>
+    <string name="november">November</string>
+    <string name="december">December</string>
+
+
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+
+</resources>

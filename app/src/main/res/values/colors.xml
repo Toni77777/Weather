@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#0288D1</color>
+    <color name="colorAccent">#FF9800</color>
+
+
+    <color name="colorPlusFAB">#FFFFFF</color>
+    <color name="colorPressMenuFAB">#e1ff9800</color>
+
+    <color name="colorBackground">#B2000000</color>
+    <color name="colorTextBackground">#fafafa</color>
+
+    <color name="itemBackgroundLight">#ffffffff</color>
+</resources>
